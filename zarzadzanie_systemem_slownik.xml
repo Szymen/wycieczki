@@ -1,332 +1,332 @@
-<xmi:XMI xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1">&amp;#13;
-	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>&amp;#13;
-	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">&amp;#13;
-		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" name="Zarz&#x105;dzanie Systemem" visibility="public">&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" name="Dane Grupy U&#x17C;ytkownik&#xF3;w" visibility="public">&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_AC9D8BC7_2EE8_4599_9AEB_9A80CC8C5A99" name="nazwa" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_2EE8_4599_9AEB_9A80CC8C5A99" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000002_2EE8_4599_9AEB_9A80CC8C5A99" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_String"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_13A98236_7675_4f80_98BB_D783FE6417C4" name="uprawnienia" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003_7675_4f80_98BB_D783FE6417C4" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000004_7675_4f80_98BB_D783FE6417C4" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_String__"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-			</packagedElement>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" name="Dane U&#x17C;ytkownika" visibility="public">&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_6177A83C_453D_4413_98E3_D08B74C16150" name="email" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000005_453D_4413_98E3_D08B74C16150" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000006_453D_4413_98E3_D08B74C16150" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_String"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_27959D33_2880_435b_9741_3CD1EEAB81DF" name="grupy" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000007_2880_435b_9741_3CD1EEAB81DF" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000008_2880_435b_9741_3CD1EEAB81DF" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_Grupa_U&#x17C;ytkownik&#xF3;w__"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_3B221892_4CC1_458e_B4D4_9879736157F7" name="imi&#x119;" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000009_4CC1_458e_B4D4_9879736157F7" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000010_4CC1_458e_B4D4_9879736157F7" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_String"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_109C24EB_FFBF_42dd_90C8_6A387D9B16DD" name="nazwisko" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">&amp;#13;
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000011_FFBF_42dd_90C8_6A387D9B16DD" value="1"/>&amp;#13;
-					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000012_FFBF_42dd_90C8_6A387D9B16DD" value="1"/>&amp;#13;
-					<type xmi:idref="EAJava_String"/>&amp;#13;
-				</ownedAttribute>&amp;#13;
-			</packagedElement>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" name="Filtry wyszukiwania" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" name="Formularz Dodania U&#x17C;ytkownika" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" name="Grupa U&#x17C;ytkownik&#xF3;w" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" name="Komunikat o Dodaniu U&#x17C;ytkownika" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" name="Komunikat o Dodaniu Wielu U&#x17C;ytkownik&#xF3;w" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" name="Lista Grup U&#x17C;ytkownik&#xF3;w" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_50557670_4A1E_487f_9951_80F94E556754" name="Lista U&#x17C;ytkownik&#xF3;w" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" name="Okno Importu U&#x17C;ytkownik&#xF3;w" visibility="public"/>&amp;#13;
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" name="Okno Raportu Importu Uzytkownik&#xF3;w" visibility="public"/>&amp;#13;
-		</packagedElement>&amp;#13;
-	</uml:Model>&amp;#13;
-	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">&amp;#13;
-		<elements>&amp;#13;
-			<element xmi:idref="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" xmi:type="uml:Package" name="Zarz&#x105;dzanie Systemem" scope="public">&amp;#13;
-				<model package2="EAID_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" package="EAPK_BCA607AB_50EB_4ac3_BA60_291E150CA835" tpos="0" ea_localid="75" ea_eleType="package"/>&amp;#13;
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>&amp;#13;
-				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:06:14" modified="2017-04-05 01:04:54" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="S&#x142;ownik"/>&amp;#13;
-				<packageproperties version="1.0"/>&amp;#13;
-				<paths/>&amp;#13;
-				<times created="2017-03-22 00:06:14" modified="2017-04-05 01:04:54" lastloaddate="2017-03-28 01:59:52" lastsavedate="2017-03-28 01:59:52"/>&amp;#13;
-				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" xmi:type="uml:Class" name="Dane Grupy U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="309" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Zbi&#xF3;r parametr&#xF3;w opisuj&#x105;cych Grup&#x119; U&#x17C;ytkownik&#xF3;w w Systemie. Sk&#x142;ada si&#x119; z nazwy i listy uprawnie&#x144; w Systemie." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:13:49" modified="2017-03-28 01:59:52" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-				<attributes>&amp;#13;
-					<attribute xmi:idref="EAID_AC9D8BC7_2EE8_4599_9AEB_9A80CC8C5A99" name="nazwa" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="6" ea_guid="{AC9D8BC7-2EE8-4599-9AEB-9A80CC8C5A99}"/>&amp;#13;
-						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="0"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-					<attribute xmi:idref="EAID_13A98236_7675_4f80_98BB_D783FE6417C4" name="uprawnienia" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="7" ea_guid="{13A98236-7675-4f80-98BB-D783FE6417C4}"/>&amp;#13;
-						<properties type="String[]" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="1"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-				</attributes>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" xmi:type="uml:Class" name="Dane U&#x17C;ytkownika" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="310" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Zbi&#xF3;r danych dotycz&#x105;cych U&#x17C;ytkownika w Systemie. Obejmuje: imi&#x119;, nazwisko, adres mailowy, has&#x142;o, przynale&#x17C;no&#x15B;&#x107; do Grupy U&#x17C;ytkownik&#xF3;w." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:07:15" modified="2017-04-05 11:07:10" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-				<attributes>&amp;#13;
-					<attribute xmi:idref="EAID_6177A83C_453D_4413_98E3_D08B74C16150" name="email" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="10" ea_guid="{6177A83C-453D-4413-98E3-D08B74C16150}"/>&amp;#13;
-						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="0"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-					<attribute xmi:idref="EAID_27959D33_2880_435b_9741_3CD1EEAB81DF" name="grupy" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="11" ea_guid="{27959D33-2880-435b-9741-3CD1EEAB81DF}"/>&amp;#13;
-						<properties type="Grupa U&#x17C;ytkownik&#xF3;w[]" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="1"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-					<attribute xmi:idref="EAID_3B221892_4CC1_458e_B4D4_9879736157F7" name="imi&#x119;" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="8" ea_guid="{3B221892-4CC1-458e-B4D4-9879736157F7}"/>&amp;#13;
-						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="2"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-					<attribute xmi:idref="EAID_109C24EB_FFBF_42dd_90C8_6A387D9B16DD" name="nazwisko" scope="Private">&amp;#13;
-						<initial/>&amp;#13;
-						<documentation/>&amp;#13;
-						<model ea_localid="9" ea_guid="{109C24EB-FFBF-42dd-90C8-6A387D9B16DD}"/>&amp;#13;
-						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>&amp;#13;
-						<coords ordered="0"/>&amp;#13;
-						<containment containment="Not Specified" position="3"/>&amp;#13;
-						<stereotype/>&amp;#13;
-						<bounds lower="1" upper="1"/>&amp;#13;
-						<options/>&amp;#13;
-						<style/>&amp;#13;
-						<styleex value="IsLiteral=0;volatile=0;"/>&amp;#13;
-						<tags/>&amp;#13;
-						<xrefs/>&amp;#13;
-					</attribute>&amp;#13;
-				</attributes>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" xmi:type="uml:Class" name="Filtry wyszukiwania" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="905" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Zbi&#xF3;r parametr&#xF3;w wyszukiwanego obiektu (w za&#x142;o&#x17C;eniu niekompletny) s&#x142;u&#x17C;&#x105;cy zaw&#x119;&#x17C;eniu zbioru danych reprezentowanych U&#x17C;ytkownikowi." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:31:22" modified="2017-04-25 00:42:05" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" xmi:type="uml:Class" name="Formularz Dodania U&#x17C;ytkownika" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="906" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran pozwalaj&#x105;cy na wprowadzenie Danych nowego Uzytkownika i ich zapisanie w Systemie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:32:28" modified="2017-04-25 00:48:46" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" xmi:type="uml:Class" name="Grupa U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="311" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Zbi&#xF3;r U&#x17C;ytkownik&#xF3;w o jednakowych uprawnieniach w Systemie. Mo&#x17C;e istnie&#x107; kilka Grup U&#x17C;ytkownik&#xF3;w o takich samych uprawnieniach, ale nie o takich samych nazwach." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:10:17" modified="2017-03-28 01:59:53" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" xmi:type="uml:Class" name="Komunikat o Dodaniu U&#x17C;ytkownika" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="907" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran potwierdzaj&#x105;cy poprawne zapisanie w Systemie Danych nowego U&#x17C;ytkownika. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:33:33" modified="2017-04-25 00:49:29" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" xmi:type="uml:Class" name="Komunikat o Dodaniu Wielu U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="910" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran zawieraj&#x105;cy potwierdzenie udanego utworzenia U&#x17C;ytkownik&#xF3;w w Systemie wskutek importu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:55:23" modified="2017-04-25 01:00:15" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" xmi:type="uml:Class" name="Lista Grup U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="904" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran zawieraj&#x105;cy Dane Grup U&#x17C;ytkownik&#xF3;w i umo&#x17C;liwiaj&#x105;cy ich przeszukiwanie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:30:47" modified="2017-04-25 00:39:25" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_50557670_4A1E_487f_9951_80F94E556754" xmi:type="uml:Class" name="Lista U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="903" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran zawieraj&#x105;cy Dane U&#x17C;ytkownik&#xF3;w i umo&#x17C;liwiaj&#x105;cy ich przeszukiwanie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:29:05" modified="2017-04-25 00:39:06" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" xmi:type="uml:Class" name="Okno Importu U&#x17C;ytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="908" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran pozwalaj&#x105;cy na okre&#x15B;lenie parametr&#xF3;w pliku z Danymi U&#x17C;ytkownik&#xF3;w oraz zaimportowanie Danych U&#x17C;ytkownik&#xF3;w z tego pliku do Systemu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:53:01" modified="2017-04-25 00:57:16" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-			<element xmi:idref="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" xmi:type="uml:Class" name="Okno Raportu Importu Uzytkownik&#xF3;w" scope="public">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="909" ea_eleType="element"/>&amp;#13;
-				<properties documentation="Ekran wy&#x15B;wietlaj&#x105;cy informacj&#x119; o tym, ilu U&#x17C;ytkownik&#xF3;w mo&#x17C;e zosta&#x107; zapisanych w Systemie na skutek importu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>&amp;#13;
-				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:53:18" modified="2017-04-25 00:58:28" complexity="1" status="Proposed"/>&amp;#13;
-				<code gentype="Java"/>&amp;#13;
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-				<modelDocument/>&amp;#13;
-				<tags/>&amp;#13;
-				<xrefs/>&amp;#13;
-				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>&amp;#13;
-			</element>&amp;#13;
-		</elements>&amp;#13;
-		<connectors/>&amp;#13;
-		<primitivetypes>&amp;#13;
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public">&amp;#13;
-				<packagedElement xmi:type="uml:Package" xmi:id="EAJavaTypesPackage" name="EA_Java_Types_Package" visibility="public">&amp;#13;
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_String" name="String" visibility="public"/>&amp;#13;
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_String__" name="String[]" visibility="public"/>&amp;#13;
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_Grupa_U&#x17C;ytkownik&#xF3;w__" name="Grupa U&#x17C;ytkownik&#xF3;w[]" visibility="public"/>&amp;#13;
-				</packagedElement>&amp;#13;
-			</packagedElement>&amp;#13;
-		</primitivetypes>&amp;#13;
-		<profiles/>&amp;#13;
-		<diagrams>&amp;#13;
-			<diagram xmi:id="EAID_C7A93964_7ECD_4f85_BAC0_B6F3F822CEB1">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" localID="55" owner="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98"/>&amp;#13;
-				<properties name="Elementy Systemu" type="Logical"/>&amp;#13;
-				<project author="adam" version="1.0" created="2017-03-22 00:06:52" modified="2017-04-19 00:14:30"/>&amp;#13;
-				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>&amp;#13;
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SaveTag=A6B4811A;"/>&amp;#13;
-				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>&amp;#13;
-				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>&amp;#13;
-				<extendedProperties/>&amp;#13;
-				<elements>&amp;#13;
-					<element geometry="Left=129;Top=74;Right=293;Bottom=162;" subject="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" seqno="1" style="DUID=BC9DE1A3;"/>&amp;#13;
-					<element geometry="Left=469;Top=70;Right=594;Bottom=146;" subject="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" seqno="2" style="DUID=B85ADDBE;"/>&amp;#13;
-					<element geometry="Left=341;Top=71;Right=431;Bottom=141;" subject="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" seqno="3" style="DUID=B9A84893;"/>&amp;#13;
-				</elements>&amp;#13;
-			</diagram>&amp;#13;
-			<diagram xmi:id="EAID_FF48AD44_E060_4f25_BFB5_53AA8D9735E6">&amp;#13;
-				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" localID="109" owner="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98"/>&amp;#13;
-				<properties name="Elementy interfejsu" type="Logical"/>&amp;#13;
-				<project author="Adam O" version="1.0" created="2017-04-19 11:36:16" modified="2017-04-25 00:57:17"/>&amp;#13;
-				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>&amp;#13;
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SaveTag=E85BE169;"/>&amp;#13;
-				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>&amp;#13;
-				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>&amp;#13;
-				<extendedProperties/>&amp;#13;
-				<elements>&amp;#13;
-					<element geometry="Left=867;Top=61;Right=957;Bottom=131;" subject="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" seqno="1" style="DUID=ADFEA4BF;"/>&amp;#13;
-					<element geometry="Left=731;Top=59;Right=821;Bottom=129;" subject="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" seqno="2" style="DUID=061C8366;"/>&amp;#13;
-					<element geometry="Left=599;Top=59;Right=689;Bottom=129;" subject="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" seqno="3" style="DUID=77F79739;"/>&amp;#13;
-					<element geometry="Left=460;Top=59;Right=550;Bottom=129;" subject="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" seqno="4" style="DUID=19E8E2B5;"/>&amp;#13;
-					<element geometry="Left=329;Top=58;Right=419;Bottom=128;" subject="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" seqno="5" style="DUID=71C202EE;"/>&amp;#13;
-					<element geometry="Left=73;Top=181;Right=163;Bottom=251;" subject="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" seqno="6" style="DUID=000242B5;"/>&amp;#13;
-					<element geometry="Left=188;Top=58;Right=278;Bottom=128;" subject="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" seqno="7" style="DUID=E13F2676;"/>&amp;#13;
-					<element geometry="Left=70;Top=57;Right=160;Bottom=127;" subject="EAID_50557670_4A1E_487f_9951_80F94E556754" seqno="8" style="DUID=3C02D23E;"/>&amp;#13;
-				</elements>&amp;#13;
-			</diagram>&amp;#13;
-		</diagrams>&amp;#13;
-	</xmi:Extension>&amp;#13;
+<xmi:XMI xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" name="Zarz&#x105;dzanie Systemem" visibility="public">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" name="Dane Grupy U&#x17C;ytkownik&#xF3;w" visibility="public">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_AC9D8BC7_2EE8_4599_9AEB_9A80CC8C5A99" name="nazwa" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_2EE8_4599_9AEB_9A80CC8C5A99" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000002_2EE8_4599_9AEB_9A80CC8C5A99" value="1"/>
+					<type xmi:idref="EAJava_String"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_13A98236_7675_4f80_98BB_D783FE6417C4" name="uprawnienia" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003_7675_4f80_98BB_D783FE6417C4" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000004_7675_4f80_98BB_D783FE6417C4" value="1"/>
+					<type xmi:idref="EAJava_String__"/>
+				</ownedAttribute>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" name="Dane U&#x17C;ytkownika" visibility="public">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_6177A83C_453D_4413_98E3_D08B74C16150" name="email" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000005_453D_4413_98E3_D08B74C16150" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000006_453D_4413_98E3_D08B74C16150" value="1"/>
+					<type xmi:idref="EAJava_String"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_27959D33_2880_435b_9741_3CD1EEAB81DF" name="grupy" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000007_2880_435b_9741_3CD1EEAB81DF" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000008_2880_435b_9741_3CD1EEAB81DF" value="1"/>
+					<type xmi:idref="EAJava_Grupa_U&#x17C;ytkownik&#xF3;w__"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_3B221892_4CC1_458e_B4D4_9879736157F7" name="imi&#x119;" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000009_4CC1_458e_B4D4_9879736157F7" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000010_4CC1_458e_B4D4_9879736157F7" value="1"/>
+					<type xmi:idref="EAJava_String"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_109C24EB_FFBF_42dd_90C8_6A387D9B16DD" name="nazwisko" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000011_FFBF_42dd_90C8_6A387D9B16DD" value="1"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000012_FFBF_42dd_90C8_6A387D9B16DD" value="1"/>
+					<type xmi:idref="EAJava_String"/>
+				</ownedAttribute>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" name="Filtry wyszukiwania" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" name="Formularz Dodania U&#x17C;ytkownika" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" name="Grupa U&#x17C;ytkownik&#xF3;w" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" name="Komunikat o Dodaniu U&#x17C;ytkownika" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" name="Komunikat o Dodaniu Wielu U&#x17C;ytkownik&#xF3;w" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" name="Lista Grup U&#x17C;ytkownik&#xF3;w" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_50557670_4A1E_487f_9951_80F94E556754" name="Lista U&#x17C;ytkownik&#xF3;w" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" name="Okno Importu U&#x17C;ytkownik&#xF3;w" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" name="Okno Raportu Importu Uzytkownik&#xF3;w" visibility="public"/>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" xmi:type="uml:Package" name="Zarz&#x105;dzanie Systemem" scope="public">
+				<model package2="EAID_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" package="EAPK_BCA607AB_50EB_4ac3_BA60_291E150CA835" tpos="0" ea_localid="75" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:06:14" modified="2017-04-05 01:04:54" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="S&#x142;ownik"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2017-03-22 00:06:14" modified="2017-04-05 01:04:54" lastloaddate="2017-03-28 01:59:52" lastsavedate="2017-03-28 01:59:52"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" xmi:type="uml:Class" name="Dane Grupy U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="309" ea_eleType="element"/>
+				<properties documentation="Zbi&#xF3;r parametr&#xF3;w opisuj&#x105;cych Grup&#x119; U&#x17C;ytkownik&#xF3;w w Systemie. Sk&#x142;ada si&#x119; z nazwy i listy uprawnie&#x144; w Systemie." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:13:49" modified="2017-03-28 01:59:52" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+				<attributes>
+					<attribute xmi:idref="EAID_AC9D8BC7_2EE8_4599_9AEB_9A80CC8C5A99" name="nazwa" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="6" ea_guid="{AC9D8BC7-2EE8-4599-9AEB-9A80CC8C5A99}"/>
+						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_13A98236_7675_4f80_98BB_D783FE6417C4" name="uprawnienia" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="7" ea_guid="{13A98236-7675-4f80-98BB-D783FE6417C4}"/>
+						<properties type="String[]" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="1"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+				</attributes>
+			</element>
+			<element xmi:idref="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" xmi:type="uml:Class" name="Dane U&#x17C;ytkownika" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="310" ea_eleType="element"/>
+				<properties documentation="Zbi&#xF3;r danych dotycz&#x105;cych U&#x17C;ytkownika w Systemie. Obejmuje: imi&#x119;, nazwisko, adres mailowy, has&#x142;o, przynale&#x17C;no&#x15B;&#x107; do Grupy U&#x17C;ytkownik&#xF3;w." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:07:15" modified="2017-04-05 11:07:10" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+				<attributes>
+					<attribute xmi:idref="EAID_6177A83C_453D_4413_98E3_D08B74C16150" name="email" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="10" ea_guid="{6177A83C-453D-4413-98E3-D08B74C16150}"/>
+						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_27959D33_2880_435b_9741_3CD1EEAB81DF" name="grupy" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="11" ea_guid="{27959D33-2880-435b-9741-3CD1EEAB81DF}"/>
+						<properties type="Grupa U&#x17C;ytkownik&#xF3;w[]" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="1"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_3B221892_4CC1_458e_B4D4_9879736157F7" name="imi&#x119;" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="8" ea_guid="{3B221892-4CC1-458e-B4D4-9879736157F7}"/>
+						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="2"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_109C24EB_FFBF_42dd_90C8_6A387D9B16DD" name="nazwisko" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="9" ea_guid="{109C24EB-FFBF-42dd-90C8-6A387D9B16DD}"/>
+						<properties type="String" derived="0" collection="false" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="3"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=0;volatile=0;"/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+				</attributes>
+			</element>
+			<element xmi:idref="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" xmi:type="uml:Class" name="Filtry wyszukiwania" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="905" ea_eleType="element"/>
+				<properties documentation="Zbi&#xF3;r parametr&#xF3;w wyszukiwanego obiektu (w za&#x142;o&#x17C;eniu niekompletny) s&#x142;u&#x17C;&#x105;cy zaw&#x119;&#x17C;eniu zbioru danych reprezentowanych U&#x17C;ytkownikowi." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:31:22" modified="2017-04-25 00:42:05" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" xmi:type="uml:Class" name="Formularz Dodania U&#x17C;ytkownika" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="906" ea_eleType="element"/>
+				<properties documentation="Ekran pozwalaj&#x105;cy na wprowadzenie Danych nowego Uzytkownika i ich zapisanie w Systemie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:32:28" modified="2017-04-25 00:48:46" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" xmi:type="uml:Class" name="Grupa U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="311" ea_eleType="element"/>
+				<properties documentation="Zbi&#xF3;r U&#x17C;ytkownik&#xF3;w o jednakowych uprawnieniach w Systemie. Mo&#x17C;e istnie&#x107; kilka Grup U&#x17C;ytkownik&#xF3;w o takich samych uprawnieniach, ale nie o takich samych nazwach." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="adam" version="1.0" phase="1.0" created="2017-03-22 00:10:17" modified="2017-03-28 01:59:53" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" xmi:type="uml:Class" name="Komunikat o Dodaniu U&#x17C;ytkownika" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="907" ea_eleType="element"/>
+				<properties documentation="Ekran potwierdzaj&#x105;cy poprawne zapisanie w Systemie Danych nowego U&#x17C;ytkownika. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:33:33" modified="2017-04-25 00:49:29" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" xmi:type="uml:Class" name="Komunikat o Dodaniu Wielu U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="910" ea_eleType="element"/>
+				<properties documentation="Ekran zawieraj&#x105;cy potwierdzenie udanego utworzenia U&#x17C;ytkownik&#xF3;w w Systemie wskutek importu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:55:23" modified="2017-04-25 01:00:15" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" xmi:type="uml:Class" name="Lista Grup U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="904" ea_eleType="element"/>
+				<properties documentation="Ekran zawieraj&#x105;cy Dane Grup U&#x17C;ytkownik&#xF3;w i umo&#x17C;liwiaj&#x105;cy ich przeszukiwanie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:30:47" modified="2017-04-25 00:39:25" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_50557670_4A1E_487f_9951_80F94E556754" xmi:type="uml:Class" name="Lista U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="903" ea_eleType="element"/>
+				<properties documentation="Ekran zawieraj&#x105;cy Dane U&#x17C;ytkownik&#xF3;w i umo&#x17C;liwiaj&#x105;cy ich przeszukiwanie. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-19 12:29:05" modified="2017-04-25 00:39:06" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" xmi:type="uml:Class" name="Okno Importu U&#x17C;ytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="908" ea_eleType="element"/>
+				<properties documentation="Ekran pozwalaj&#x105;cy na okre&#x15B;lenie parametr&#xF3;w pliku z Danymi U&#x17C;ytkownik&#xF3;w oraz zaimportowanie Danych U&#x17C;ytkownik&#xF3;w z tego pliku do Systemu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:53:01" modified="2017-04-25 00:57:16" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+			<element xmi:idref="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" xmi:type="uml:Class" name="Okno Raportu Importu Uzytkownik&#xF3;w" scope="public">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" tpos="0" ea_localid="909" ea_eleType="element"/>
+				<properties documentation="Ekran wy&#x15B;wietlaj&#x105;cy informacj&#x119; o tym, ilu U&#x17C;ytkownik&#xF3;w mo&#x17C;e zosta&#x107; zapisanych w Systemie na skutek importu. Patrz: za&#x142;&#x105;czony Prototyp." isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Adam O" version="1.0" phase="1.0" created="2017-04-25 00:53:18" modified="2017-04-25 00:58:28" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<modelDocument/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Zarz&#x105;dzanie Systemem"/>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAJavaTypesPackage" name="EA_Java_Types_Package" visibility="public">
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_String" name="String" visibility="public"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_String__" name="String[]" visibility="public"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_Grupa_U&#x17C;ytkownik&#xF3;w__" name="Grupa U&#x17C;ytkownik&#xF3;w[]" visibility="public"/>
+				</packagedElement>
+			</packagedElement>
+		</primitivetypes>
+		<profiles/>
+		<diagrams>
+			<diagram xmi:id="EAID_C7A93964_7ECD_4f85_BAC0_B6F3F822CEB1">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" localID="55" owner="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98"/>
+				<properties name="Elementy Systemu" type="Logical"/>
+				<project author="adam" version="1.0" created="2017-03-22 00:06:52" modified="2017-04-19 00:14:30"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SaveTag=A6B4811A;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=129;Top=74;Right=293;Bottom=162;" subject="EAID_6B15D0A6_FE91_4b5d_98FE_D0ACD4C0F153" seqno="1" style="DUID=BC9DE1A3;"/>
+					<element geometry="Left=469;Top=70;Right=594;Bottom=146;" subject="EAID_F706AF62_FCC8_4318_9884_FDC1951738DD" seqno="2" style="DUID=B85ADDBE;"/>
+					<element geometry="Left=341;Top=71;Right=431;Bottom=141;" subject="EAID_3411DF80_2113_4bd8_9870_DB563DBFD72D" seqno="3" style="DUID=B9A84893;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_FF48AD44_E060_4f25_BFB5_53AA8D9735E6">
+				<model package="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98" localID="109" owner="EAPK_85640C5B_5AB8_4338_A7F8_FDD4A0451F98"/>
+				<properties name="Elementy interfejsu" type="Logical"/>
+				<project author="Adam O" version="1.0" created="2017-04-19 11:36:16" modified="2017-04-25 00:57:17"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SaveTag=E85BE169;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=867;Top=61;Right=957;Bottom=131;" subject="EAID_A24A64A5_4686_4308_9F0A_525D49E18F49" seqno="1" style="DUID=ADFEA4BF;"/>
+					<element geometry="Left=731;Top=59;Right=821;Bottom=129;" subject="EAID_BB2177D0_C619_4357_84E3_96FC374BE001" seqno="2" style="DUID=061C8366;"/>
+					<element geometry="Left=599;Top=59;Right=689;Bottom=129;" subject="EAID_5831DDF8_42F7_4987_A79C_3BA1F9BCB022" seqno="3" style="DUID=77F79739;"/>
+					<element geometry="Left=460;Top=59;Right=550;Bottom=129;" subject="EAID_5C7D1697_7EB0_4937_8AAB_50BBA189D9CC" seqno="4" style="DUID=19E8E2B5;"/>
+					<element geometry="Left=329;Top=58;Right=419;Bottom=128;" subject="EAID_CDCDD859_0A03_4888_93F6_05F282D7AA37" seqno="5" style="DUID=71C202EE;"/>
+					<element geometry="Left=73;Top=181;Right=163;Bottom=251;" subject="EAID_AED80290_F08B_48dc_8F8C_A79D7313CBC5" seqno="6" style="DUID=000242B5;"/>
+					<element geometry="Left=188;Top=58;Right=278;Bottom=128;" subject="EAID_B2F0D458_A650_4075_94DC_920ED0BF0C35" seqno="7" style="DUID=E13F2676;"/>
+					<element geometry="Left=70;Top=57;Right=160;Bottom=127;" subject="EAID_50557670_4A1E_487f_9951_80F94E556754" seqno="8" style="DUID=3C02D23E;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
 </xmi:XMI>
